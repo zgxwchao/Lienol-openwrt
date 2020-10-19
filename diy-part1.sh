@@ -41,7 +41,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan包/ diy / 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks package / diy / ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2 package / diy / redsocks2
 
-rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package / diy / luci-theme-argon   ＃新的氩主题
+# rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package / diy / luci-theme-argon   ＃新的氩主题
 ＃全新的[argon-主题]此主题玩法很多，这里看说明【https://github.com/jerrykuku/luci-theme-argon/blob/18.06/README_ZH.md】
 ＃用WinSCP连接openwrt，在/ www / luci-static / argon里面创建背景文件夹（如果本身就有背景就不需要创建）来放置jpg png gif格式图片可以自定义登陆界面，gif图片为动态登陆界面
 
