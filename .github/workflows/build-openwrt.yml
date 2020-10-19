@@ -42,7 +42,7 @@ env:
   REPO_BRANCH: 19.07
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: diy.config
-  DIY_OP_SH: diy-lede.sh
+  DIY_OP_SH: diy-part1.sh
   SSH_ACTIONS: true
   UPLOAD_BIN_DIR: false
   UPLOAD_CONFIG: true
